@@ -61,6 +61,9 @@
 
         nodes[i].x = x(col);
         nodes[i].y = y(row);
+
+        nodes[i].col = col;
+        nodes[i].row = row;
       }
 
       return nodes;

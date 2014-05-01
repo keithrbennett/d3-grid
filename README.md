@@ -15,6 +15,9 @@ Computes the layout for <i>nodes</i>. Per default, the layout tries to keep the 
 * x – the computed <i>x</i>-coordinate of the node position.
 * y – the computed <i>y</i>-coordinate of the node position.
 
+In addition, <i>row</i> and <i>col</i> are added to each node so that they can be queried and used, for example,
+to look up row- or column-specific data.
+
 <a name="points" href="#points">#</a> grid.<b>points</b>()
 
 Configure the grid to treat nodes as points, cf. [d3.scale.ordinal().rangePoints()](https://github.com/mbostock/d3/wiki/Ordinal-Scales#wiki-ordinal_rangePoints).

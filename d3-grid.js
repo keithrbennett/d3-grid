@@ -118,6 +118,10 @@
       return grid;
     }
 
+    grid.xScale = function() { return x }
+
+    grid.yScale = function() { return y }
+
     return grid;
   };
 })();

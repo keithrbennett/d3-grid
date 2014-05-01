@@ -59,6 +59,14 @@ If <i>nodeSize</i> is set, returns the current <i>nodeSize</i>.
 
 If instead [size](#size) is set, returns the actual size of a node <i>after</i> [grid](#grid) has been called.
 
+<a name="xScale" href="#xScale">#</a> grid.<b>xScale</b>()
+
+Returns the x scale used by this instance.
+
+<a name="yScale" href="#yScale">#</a> grid.<b>yScale</b>()
+
+Returns the y scale used by this instance.
+
 
 ## Examples
 
